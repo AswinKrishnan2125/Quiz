@@ -742,7 +742,7 @@ app.get('/api/my-quizzes', auth, async (req, res) => {
 
 
 // --- Endpoint to get a quiz by ID (can remain public for sharing) ---
-app.get('/api/quiz/:id',auth, async (req, res) => {
+app.get('/api/quiz/:id', async (req, res) => {
   try {
     console.log('Fetching quiz by ID:', req.params.id);
     const quizId = req.params.id;
