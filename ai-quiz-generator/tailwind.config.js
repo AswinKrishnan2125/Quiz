@@ -3,7 +3,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // Important: This path tells Tailwind to scan your React components
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
